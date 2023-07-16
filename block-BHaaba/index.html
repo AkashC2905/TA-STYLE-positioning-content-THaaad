@@ -1,0 +1,59 @@
+<!-- ### Exercise 2
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+3. Inside the main content crate three columns. In each column take one image and a paragraph below the image.
+4. Using float is necessary. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="heading">
+            <div class="container clearfix">
+                <a class="brand" href="#">
+                    <img src="alt.jpeg" alt="altcampus">
+                </a>
+                <nav class="nav">
+                    <a href="">HOME</a>
+                    <a href="">ABOUT</a>
+                    <a href="">CONTACT</a>
+                    <a href="">HELP</a>
+                </nav>
+             </div>
+    </header>
+    <main>
+        <section class="section">
+            <div class="container clearfix">
+                <article class="col">
+                    <img class="article-img" src="alt mountain.jpeg" alt="mounatain">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repellat saepe distinctio suscipit dolore magnam? Quaerat, nesciunt placeat beatae similique delectus nobis modi expedita eius accusamus, </p>
+                </article>
+                <article class="col">
+                    <img class="article-img" src="alt mountain 2.jpeg" alt="mounatain">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repellat saepe distinctio suscipit dolore magnam? Quaerat, nesciunt placeat beatae similique delectus nobis modi expedita eius accusamus, </p>
+                </article>
+                <article class="col">
+                    <img class="article-img" src="alt mountain 3.jpeg" alt="mounatain">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repellat saepe distinctio suscipit dolore magnam? Quaerat, nesciunt placeat beatae similique delectus nobis modi expedita eius accusamus, </p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container clearfix">
+            <small>&copy; AltCampus</small>
+            <nav>
+                <a href="">Facebook</a>
+                <a href="">Twitter</a>
+            </nav>
+        </div>
+    </footer>    
+</body>
+</html>
