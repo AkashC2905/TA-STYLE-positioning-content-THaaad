@@ -1,0 +1,86 @@
+<!-- ### Exercise
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body id="top">
+    <header class="header">
+        <div class="container clearfix">
+            <a class="brand" href="#">
+                <img class="logo" src="alt.jpeg" alt="">
+            </a>
+            <nav class="nav">
+                <a href="">HOME</a>
+                <a href="">CONTACT</a>
+                <a href="">ABOUT</a>
+                <a href="">GALLERY</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <article class="article">
+            <div class="container clearfix">
+                <div class="col article-col-left">
+                <h1 class="article-heading">This is the heading of the article </h1>
+                <p class="article-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta sunt aliquam nam consequuntur, officia reiciendis mollitia veritatis ex at? Labore, vitae reiciendis commodi corporis, voluptates sunt atque rerum porro voluptatem dicta possimus facere eos? Aperiam perspiciatis aspernatur quasi numquam debitis porro deserunt repellendus hic, neque, voluptates magnam soluta, eos nihil asperiores enim autem animi iste. Provident, atque molestiae quaerat fugiat ea dicta sed dolor a accusamus animi non, rem error, asperiores numquam suscipit similique maiores aliquid consectetur sunt! Laboriosam, odio.</p>
+                </div>
+                <div>
+                    <img class="article-img" src="altcampus1.jpeg" alt="">
+                </div>
+            </div>
+        </article>
+        <section class="gallery" >
+            <div class="container clearfix">
+                <div class="col-1-3">
+                    <img src="1jpeg.png" alt="img">
+                </div>
+                <div class="col-1-3">
+                    <img src="2jpeg.png" alt="img">
+                </div>
+                <div class="col-1-3">
+                    <img src="3jpeg.png" alt="img">
+                </div>
+                <div class="col-1-3">
+                    <img src="1jpeg.png" alt="img">
+                </div>
+                <div class="col-1-3">
+                    <img src="2jpeg.png" alt="img">
+                </div>
+                <div class="col-1-3">
+                    <img src="3jpeg.png" alt="img">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <nav>
+                <a class="bottom" href="">Facebook</a>
+                <a class="bottom" href="">Twitter</a>
+                <a class="bottom" href="">Instagram</a>
+            </nav>
+        </div>
+    </footer>
+    <a class="top" href="#top">
+        top
+    </a>
+ </body>
+ </html>
